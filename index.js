@@ -1,5 +1,6 @@
 const { Client, GatewayIntentBits, Events } = require('discord.js');
 const fs = require('fs');
+const TOKEN = 'PUT_YOUR_TOKEN_HERE'; // <------------- Put your token between ' '
 
 const client = new Client ({
   intents: [
@@ -31,4 +32,4 @@ client.on(Events.MessageCreate, (message) => {
 })
 
 
-client.login('TOKEN_HERE');
+client.login(TOKEN);

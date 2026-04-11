@@ -10,7 +10,7 @@ A Discord bot that will delete messages that contains any of the words you banne
 
 3. Go to https://discord.com/developers/applications and create a bot
 
-4. After creating a bot copy the token of the put
+4. After creating a bot copy the token of your bot
 
 5. Open "index.js" and change PUT_YOUR_TOKEN_HERE to the token you copied
 
